@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/blue_900" /> <!-- Color azul sólido -->
+    <size android:height="1dp" /> <!-- Grosor del divisor -->
+</shape>

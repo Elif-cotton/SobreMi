@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_below="@id/profile_image"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion_perfil"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"
+        android:textColor="@android:color/black" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDA0DD"
+        android:padding="8dp"
+        android:divider="@drawable/divider_horizontal"
+        android:showDividers="beginning|middle|end">
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:padding="4dp"
+                android:text="@string/experiencia"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_column="2"
+                android:padding="4dp"
+                android:text="@string/anios"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_column="1"
+                android:padding="4dp"
+                android:text="@string/area"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_column="2"
+                android:padding="4dp"
+                android:text="@string/recursos_humanos"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:padding="4dp"
+                android:text="@string/nivel_motivacional"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_column="2"
+                android:padding="4dp"
+                android:text="@string/altamente_comprometida"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:padding="4dp"
+                android:text="@string/habilidad_profesional"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_column="2"
+                android:padding="4dp"
+                android:text="@string/aprendizaje_activo"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+    <!-- Botón Información Contacto -->
+    <Button
+        android:id="@+id/contact_info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informacion_contacto"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:backgroundTint="#800080"
+        android:backgroundTintMode="src_atop"
+        android:stateListAnimator="@null"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>

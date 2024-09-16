@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sobre mi</string>
+    <string name="profile_image">Imagen de perfil</string>
+    <string name="descripcion_perfil">Hola soy Judith Vergara Muñoz, Ingeniera en Alimentos e Ingeniero Civil Industrial, soy Chilena</string>
+    <string name="experiencia">Años de experiencia</string>
+    <string name="anios">4</string>
+    <string name="area">Área de experiencia</string>
+    <string name="recursos_humanos">Recursos Humanos</string>
+    <string name="nivel_motivacional">Nivel motivacional</string>
+    <string name="altamente_comprometida">Altamente comprometida</string>
+    <string name="habilidad_profesional">Habilidad profesional</string>
+    <string name="aprendizaje_activo">Aprendizaje activo</string>
+
+    <string name="informacion_de_contacto">Información de contacto.</string>
+    <string name="linkedin">Linkedln</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="email">Enviar correo</string>
+    <string name="salir">Salir</string>
+    <string name="informacion_contacto">Información de contacto</string>
+</resources>

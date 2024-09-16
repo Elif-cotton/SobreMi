@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informacion_de_contacto"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30sp"/>
+
+    <!-- LinkedIn Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="25sp">
+
+        <ImageView
+            android:id="@+id/linkedin_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/linkedin" />
+
+        <Button
+            android:id="@+id/linkedin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#800080"
+            android:backgroundTintMode="src_atop"
+            android:stateListAnimator="@null"
+            android:text="@string/linkedin"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- WhatsApp Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="25sp">
+
+        <ImageView
+            android:id="@+id/whatsapp_logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/whatsapp" />
+
+        <Button
+            android:id="@+id/whatsapp_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#800080"
+            android:backgroundTintMode="src_atop"
+            android:stateListAnimator="@null"
+            android:text="@string/whatsapp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Gmail Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="25sp">
+
+        <ImageView
+            android:id="@+id/gmail_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/gmail" />
+
+        <Button
+            android:id="@+id/email_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#800080"
+            android:backgroundTintMode="src_atop"
+            android:stateListAnimator="@null"
+            android:text="@string/email"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Botón Salir -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF0000"
+            android:backgroundTintMode="src_atop"
+            android:stateListAnimator="@null"
+            android:text="@string/salir"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
